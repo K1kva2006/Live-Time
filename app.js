@@ -16,7 +16,7 @@ function dataTime() {
     minutes.textContent = new Date().getMinutes() + " : ";
     seconds.textContent = new Date().getSeconds();
 
-    setInterval(dataTime, 1000)
 }
-window.addEventListener("load", dataTime)
+setInterval(dataTime, 1000)
+window.addEventListener("load", dataTime) 
 
