@@ -9,7 +9,7 @@ const seconds = document.getElementById("seconds");
 
 function dataTime() {
     year.textContent = new Date().getFullYear() + " / ";
-    month.textContent = new Date().getMonth() + " / ";
+    month.textContent = new Date().getMonth() + 1 + " / ";
     day.textContent = new Date().getDate();
 
     hours.textContent = new Date().getHours() + " : ";
